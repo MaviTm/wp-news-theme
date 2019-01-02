@@ -1,0 +1,3 @@
+body{background:#000; background: -moz-linear-gradient(#FFFFFF, #FFFFFF);background:-o-linear-gradient(#FFFFFF, #FFFFFF);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#FFFFFF));background:-webkit-linear-gradient(#FFFFFF, #FFFFFF);}
+.singleTabDis, .contentTabUl, .fontA, .addthis_toolbox{display:none !important;}
+.contentText{background:none !important;}

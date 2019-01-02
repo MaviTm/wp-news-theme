@@ -1,0 +1,126 @@
+﻿/*Theme Name: MaviTm Haber
+Author: ayer50@gmail.com
+Author URI: http://mavitm.com/
+Theme URI: http://www.mavitm.com
+Description: Haber siteleri icin wp template
+Version: 1.0
+Tags: mavitm, maviTakım, ayhan, ayer
+*/
+html,body,div,span,applet,object,iframe,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+border: 0;	margin: 0;	outline: 0;	padding: 0;vertical-align: baseline;}
+.clear{clear:both; line-height:0px;}.mrBottom10{margin-bottom:10px;}.none{display:none;}.fullNone{display:none !important;}.el{cursor:pointer;}.help{cursor:help;}.mr5{margin:5px;}.mr10{margin:10px;}.left{float:left;}.right{float:right;}a img{border:none;}a{cursor:pointer;}.center{text-align:center;}.textRight{text-align:right;}.textLeft{text-align:left;}.textCenter{text-align:center;}
+
+body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;font-size:12px; background:#fff;);}
+
+#wrapper{width:1000px; margin:0px auto; background-color:#FFF;}
+#header{width:1000px; position:relative; margin-bottom:0px;}
+#header .headTop{height:32px; background:url(images/headtop.jpg) repeat-x left top;}
+#menu-top-menu{margin:0px; padding:0px; list-style:none;}#menu-top-menu ul{display:none !important;}
+#menu-top-menu li{float:left;}#menu-top-menu li a{display:block; padding:8px 8px 0px 8px; color:#FFF; text-decoration:none;}
+
+#header .logo{width:250px; height:110px; /*background:url(images/logo.png) no-repeat top center;*/ float:left; overflow:hidden;}
+#header .logo a{display:block; width:320px; height:100px; padding:0px; margin:0px; text-decoration:none;}
+#header .headBanner{width:728px; height:90px; overflow:hidden; background-color:#ebebeb; position:absolute; top:42px; right:10px;}
+
+#ustMenu{width:1000px; height:37px; background:url(images/menuUst.png) repeat-x top left;	clear: both;	display: block;	float: left;}
+#ustMenu ul{width:590px; height:37px; list-style:none; padding:0px; margin:0px; float:left; margin-left:20px;}
+#ustMenu ul ul{display:none !important;}#ustMenu ul li{float:left;}#ustMenu ul li a{display:block; padding:12px 10px 0px 10px; text-decoration:none; color:#FFF;}
+#ustMenu .maviTmSearch{float:right; width:340px; height:37px; padding-top:8px;}
+.screen-reader-text{display:none;}
+#s{width:210px; height:20px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px; background-color:#FFF; border:1px solid #CCC; margin-left:20px; margin-right:20px;}#searchsubmit{padding:3px 8px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px; background-color:#2a2929; color:#FFF; cursor:pointer; border:none;}
+
+#access{width:960px;height:38px; background:url(images/menuBg.jpg) repeat-x top left;clear: both;display: block;float:left;margin:0 auto; padding:1px 20px 0px 20px; position:relative; z-index:1001;}
+#access ul {font-size: 12px; font-weight:bold;	list-style: none;	margin: 0 0 0 -0.8125em;	padding-left: 0;}
+#access li {float: left; position:relative;}
+#access a {	color: #FFF;display: block;line-height:38px;padding:0px 10px ;text-decoration: none; border-right:1px solid #FFF;}
+#access ul ul {-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);box-shadow: 0 3px 3px rgba(0,0,0,0.2);display: none;float: left;margin: 0;position: absolute;top:35px;left: 0;width: 188px;z-index: 99999;}#access ul ul ul {left: 100%;top: 0;}
+#access ul ul a {background: #f9f9f9;border-bottom: 1px dotted #ddd;color: #444;font-size: 13px;font-weight: normal;height: auto;line-height: 1.4em;padding:10px;width: 168px;}
+#access li:hover > a,#access ul ul :hover > a,#access a:focus, #access .current-menu-parent, #access .current_page_item {background: #efefef;}
+#access li:hover > a,#access a:focus, #access .current-menu-parent a, #access .current_page_item a{background: #f9f9f9; /* Show a solid color for older browsers */background: -moz-linear-gradient(#f9f9f9, #e5e5e5);background: -o-linear-gradient(#f9f9f9, #e5e5e5);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);color: #373737;}
+#access ul li:hover > ul {display: block;}
+#access .current-menu-item > a,#access .current-menu-ancestor > a,#access .current_page_item > a,#access .current_page_ancestor > a {font-weight: bold;}
+
+/***********************************/
+
+
+
+#content{width:1000px;}
+.siteMain{width:720px; margin-left:10px; float:left;}
+.fullMain{width:980px; padding:10px;}
+
+
+.blokUst{width:980px; height:auto; padding:10px;}
+.sagAlan{width:250px; float:right; margin-right:10px;}
+.ortaBlok{width:720px; height:auto;}
+.mansetArea{width:720px;float:left;}
+.mansetArea .mansetBlok{width:480px; float:left; margin-right:10px;}
+.mansetArea .mansetSagBlok{width:230px; float:right;}
+.mansetArea .mansetSagBlok ul, .siteMain .mansetArea .mansetSagBlok ol{list-style:none; list-style-type:none;}
+
+
+/****BASLIKLAR*****/
+.defaultTitle, .titlemavi{height:35px; margin:0px; padding:0px; border-radius:12px 12px 0px 0px;background:#1464be; background: -moz-linear-gradient(#1464be, #2144A2);background:-o-linear-gradient(#1464be, #2144A2);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#1464be), to(#2144A2));background:-webkit-linear-gradient(#1464be, #2144A2);  font-size:16px; color:#FFF; padding:0px 20px; overflow:hidden;}
+.defaultTitle h2, .title h2{height:25px; float:left; margin-top:6px; font-size:14px; text-shadow:1px 1px #FFF; color:#333; border-radius:12px 12px 0px 0px; padding:8px 12px 5px 12px; background:#eaeaea; background: -moz-linear-gradient(#eaeaea, #e4e4e4);background:-o-linear-gradient(#eaeaea, #e4e4e4);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#eaeaea), to(#e4e4e4));background:-webkit-linear-gradient(#eaeaea, #e4e4e4); -moz-box-shadow:inset 0 0 5px #000000;-webkit-box-shadow: inset 0 0 5px #000000; box-shadow:inset 0 0 5px #000000;}
+.title{height:35px; margin:0px; padding:0px; border-radius:12px 12px 0px 0px; font-size:16px; color:#FFF; padding:0px 20px; overflow:hidden;}
+
+.titlekirmizi{background:#be1414; background: -moz-linear-gradient(#be1414, #7a0b0b);background:-o-linear-gradient(#be1414, #7a0b0b);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#be1414), to(#7a0b0b));background:-webkit-linear-gradient(#be1414, #7a0b0b);}
+.titleyesil{background:#2ab60e; background: -moz-linear-gradient(#2ab60e, #1a6005);background:-o-linear-gradient(#2ab60e, #1a6005);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#2ab60e), to(#1a6005));background:-webkit-linear-gradient(#2ab60e, #1a6005);}
+.titleturuncu{background:#f56505; background: -moz-linear-gradient(#f56505, #b35e04);background:-o-linear-gradient(#f56505, #b35e04);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f56505), to(#b35e04));background:-webkit-linear-gradient(#f56505, #b35e04);}
+
+
+/******* TITLE ********/
+.tabTitle{ height:24px; font-size:16px; padding:0px; border-bottom:1px solid #E01C1D; border-left:2px solid #E01C1D; margin-bottom:10px;}
+.tabTitle h2{background-color:#E01C1D; color:#FFF; padding:3px 20px 3px 10px; float:left; font-size:15px; margin:0px;}
+.govdeBaslik{ height:24px; font-size:16px; padding:0px; border-bottom:1px solid #E01C1D; border-left:2px solid #E01C1D; margin-bottom:10px;}
+.govdeBaslik h2{background-color:#E01C1D; color:#FFF; padding:3px 20px 3px 10px; float:left; font-size:15px; margin:0px;}
+
+
+/******UL ve BUTTONLAR*****/
+.pButton, #submit{background:url(images/tabs.jpg) no-repeat top center; border:1px solid #CCC; padding:4px 10px; margin:3px 0px; text-decoration:none; color:#333; font-size:11px; font-weight:bold; margin-right:5px;}
+.pButton:hover, #submit:hover{-moz-box-shadow:inset 0 0 5px #000000;-webkit-box-shadow: inset 0 0 5px #000000; box-shadow:inset 0 0 5px #000000; background:none; background-color:#E01C1D; color:#FFF;}
+
+.classicUl{margin:0px; padding:0px; list-style:none;}
+.classicUl li{ border-bottom:1px solid #CCC;}
+.classicUl li a{display:block; background:url(images/redBg.jpg) no-repeat left center; padding:5px 10px 3px 25px; cursor:pointer;}
+.classicUl li .printYek{background:url(images/printer.png) no-repeat left center;}
+
+.pagenavi{margin:20px 0px; list-style:none;padding:0px;}
+.pagenavi li{float:left; background: url(images/tabs.jpg) no-repeat top center #ebebeb; border:1px solid #CCC; margin:0px 1px 3px 1px;}
+.pagenavi li a{display:block; padding:3px 8px; text-decoration:none; color:#333;}
+.pagenavi .page-numbers{display:block; float:left;  padding:3px 5px; margin:2px; background-color:#ebebeb; border:1px solid #CCC; text-decoration:none; color:#333; font-size:11px; font-weight:bold;}
+.pagenavi li:hover, .pagenavi .active, .pagenavi .current, .pagenavi .page-numbers:hover{-moz-box-shadow:inset 0 0 5px #000000;-webkit-box-shadow: inset 0 0 5px #000000; box-shadow:inset 0 0 5px #000000; background:none; background-color:#E01C1D; }.pagenavi li:hover a, .pagenavi .active a, .page-numbers:hover, .pagenavi .current{color:#FFF;}
+
+
+/****share****/
+.addthisMytoolbox{text-align:center; float:right;}
+
+
+/****************FOOTER**********************/
+#footer{width:1000px; height:120px; margin-top:10px; background-color:#ebebeb;}
+
+#altKategori{width:960px;height:38px; clear: both;display: block;float:left;margin:0 auto; padding:0px 20px 0px 20px; position:relative; z-index:1001;}
+#altKategori ul {font-size: 12px; font-weight:bold;	list-style: none;margin: 0 0 0 -0.8125em;padding-left: 0;}
+#altKategori li {float: left; position:relative;}
+#altKategori a {color: #FFF;display: block;line-height:38px;padding:0px 10px ;text-decoration: none; border-right:1px solid #FFF;}
+#altKategori ul ul {-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);box-shadow: 0 3px 3px rgba(0,0,0,0.2);display: none;float: left;margin: 0;position:absolute; bottom:38px;left: 0;width: 188px;z-index: 99999; border:1px solid #ebebeb; border-bottom:none;}
+#altKategori ul ul ul {left: 100%;bottom:0px;}
+#altKategori ul ul a {background: #f9f9f9;border-bottom: 1px dotted #ddd;color: #444;font-size: 13px;font-weight: normal;height: auto;line-height: 1.4em;padding:10px;width: 168px;}
+#altKategori li:hover > a,#altKategori ul ul :hover > a,#altKategori a:focus, #altKategori .current-menu-parent, #altKategori .current_page_item {background: #efefef;}
+#altKategori li:hover > a,#altKategori a:focus, #altKategori .current-menu-parent a, #altKategori .current_page_item a{background: #f9f9f9; /* Show a solid color for older browsers */background: -moz-linear-gradient(#f9f9f9, #e5e5e5);background: -o-linear-gradient(#f9f9f9, #e5e5e5);background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);color: #373737;}
+#altKategori ul li:hover > ul {display: block;}
+#altKategori .current-menu-item > a,#altKategori .current-menu-ancestor > a,#altKategori .current_page_item > a,#altKategori .current_page_ancestor > a {font-weight: bold;}
+
+#altMenu{padding:10px 20px; float:left;}
+#altMenu ul{list-style:none; margin:0px; padding:0px;}#altMenu ul ul{display:none !important;}
+#altMenu ul li{float:left;}#altMenu ul li a{display:block; padding:2px 12px 2px 0px; text-decoration:none; color:#333;}
+#altMenu ul li:hover a{text-decoration:underline;}
+.siteAltName{text-align:center;}
+
+#link{color:#fff;}
+
+.mavitmPopDiv{-moz-border-radius: 5px;-webkit-border-radius:5px;border-radius:5px; padding:3px;  background-color:#FFF;
+-moz-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);	-webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);	box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4); min-width:100px; min-height:100px; position:absolute; top:15%; left:48%; z-index:1002; border:1px solid #CCC; padding:0px 5px 5px 5px;}
+.mavitmPopDiv .cerceveHead{height:30px; background-color:#e1e1e1;}
+.mavitmPopDiv .cerceveHead .cerceveKapat{float:right; font-size:12px; color:#333; text-shadow:1px 1px #FFF; cursor:pointer; font-weight:bold; padding:8px 15px 0px 15px;}
+.mavitmPopDiv .mavitmPopLoads{background:url(images/loader.gif) no-repeat top center; padding:35px 0px 0px 0px; text-align:center; margin-top:15px;}
+.videoButton{ font-size:18px; display:block; padding:10px; background-color:#ebebeb; border:1px solid #CCC; margin:10px 0px;}
