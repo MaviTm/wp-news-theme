@@ -28,10 +28,7 @@
 		<meta property="og:url" content="<?php the_permalink() ?>" />
 		<meta property="og:type" content="<?php if( get_post_meta($post->ID, "type", true) ): echo get_post_meta($post->ID, "type", true); else: echo "article"; endif;?>" />
 		<?php  } ?>
-	<!--7adf106c59d54fb78392c779f1d744c7-->
-
-	<meta http-equiv="refresh" content="260" />
-	<meta name='yandex-verification' content='599fc825879f4a7b' />		
+		
 		
 	</head>
 	<body <?php //body_class(); ?>>

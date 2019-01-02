@@ -1,4 +1,4 @@
-﻿/*Theme Name: MaviTm Haber
+/*Theme Name: MaviTm Haber
 Author: ayer50@gmail.com
 Author URI: http://mavitm.com/
 Theme URI: http://www.mavitm.com
@@ -10,7 +10,7 @@ html,body,div,span,applet,object,iframe,blockquote,pre,a,abbr,acronym,address,bi
 border: 0;	margin: 0;	outline: 0;	padding: 0;vertical-align: baseline;}
 .clear{clear:both; line-height:0px;}.mrBottom10{margin-bottom:10px;}.none{display:none;}.fullNone{display:none !important;}.el{cursor:pointer;}.help{cursor:help;}.mr5{margin:5px;}.mr10{margin:10px;}.left{float:left;}.right{float:right;}a img{border:none;}a{cursor:pointer;}.center{text-align:center;}.textRight{text-align:right;}.textLeft{text-align:left;}.textCenter{text-align:center;}
 
-body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;font-size:12px; background:#fff;);}
+body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;font-size:12px; background:#000; background: -moz-linear-gradient(#000000, #FFFFFF);background:-o-linear-gradient(#000000, #FFFFFF);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#FFFFFF));background:-webkit-linear-gradient(#000000, #FFFFFF);}
 
 #wrapper{width:1000px; margin:0px auto; background-color:#FFF;}
 #header{width:1000px; position:relative; margin-bottom:0px;}
@@ -115,8 +115,6 @@ body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;font-size
 #altMenu ul li{float:left;}#altMenu ul li a{display:block; padding:2px 12px 2px 0px; text-decoration:none; color:#333;}
 #altMenu ul li:hover a{text-decoration:underline;}
 .siteAltName{text-align:center;}
-
-#link{color:#fff;}
 
 .mavitmPopDiv{-moz-border-radius: 5px;-webkit-border-radius:5px;border-radius:5px; padding:3px;  background-color:#FFF;
 -moz-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);	-webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);	box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4); min-width:100px; min-height:100px; position:absolute; top:15%; left:48%; z-index:1002; border:1px solid #CCC; padding:0px 5px 5px 5px;}
